@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ---------------------------------------------------------------------------------------
+# Node modules and dependencies
+# ---------------------------------------------------------------------------------------
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+# Yarn lock file (often committed, but can be ignored if desired)
+# yarn.lock
+
+# ---------------------------------------------------------------------------------------
+# Build artifacts
+# ---------------------------------------------------------------------------------------
+# Next.js build output
+/.next/
+/out/
+# TypeScript build info
+*.tsbuildinfo
+# Production build folder (if you use a separate one)
+/build/
+
+# ---------------------------------------------------------------------------------------
+# Local environment and secrets
+# ---------------------------------------------------------------------------------------
+# Local environment variables
+.env*.local
+# General environment variables
+.env
+# Example environment file
+.env.example
+
+# ---------------------------------------------------------------------------------------
+# Logs, debug files, and cache
+# ---------------------------------------------------------------------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# pnpm debug log
+pnpm-debug.log*
+# Cache directory
+.cache/
+
+# ---------------------------------------------------------------------------------------
+# Operating system and editor files
+# ---------------------------------------------------------------------------------------
+# macOS files
+.DS_Store
+# Visual Studio Code
+.vscode/
+# IDE files
+.idea/
+.vs/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------------------------------------------------------------------
+# Deployment-specific files
+# ---------------------------------------------------------------------------------------
+# Vercel
+.vercel/
+
+# ---------------------------------------------------------------------------------------
+# Private keys and certificates
+# ---------------------------------------------------------------------------------------
+*.pem
+*.key
+*.crt
+
+# ---------------------------------------------------------------------------------------
+# Type definitions
+# ---------------------------------------------------------------------------------------
+next-env.d.ts
