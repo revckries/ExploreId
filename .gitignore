@@ -28,8 +28,6 @@
 .env*.local
 # General environment variables
 .env
-# Example environment file
-.env.example
 
 # ---------------------------------------------------------------------------------------
 # Logs, debug files, and cache
